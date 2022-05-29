@@ -25,7 +25,6 @@ class OneAdd
 	List <Integer> al= new ArrayList<Integer>();
 	for(int i=0;i<num.length();i++)
 	{
-		//al.add((int)num.charAt(i)-48);
 		al.add(Integer.parseInt(String.valueOf(num.charAt(i))));
 	}
 	System.out.println(addOne(al));
